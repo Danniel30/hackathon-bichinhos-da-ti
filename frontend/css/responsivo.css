@@ -1,0 +1,219 @@
+/* Smartphones (até 600px) */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-left: 0;
+        text-align: center;
+        flex: 100%;
+    }
+
+    .menu {
+        text-align: center;
+        flex: 100%;
+        padding: 10px 0;
+    }
+
+    .menu a {
+        display: block;
+        margin: 5px 0;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .slider {
+        width: 95%;
+    }
+
+    .controls button {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    section {
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 2%;
+    }
+
+    .titulo-aluno {
+        font-size: 36px;
+    }
+
+    .aluno {
+        font-size: 20px;
+    }
+
+    section h2 {
+        font-size: 36px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    footer {
+        margin-top: 50px;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .list-services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-services a,
+    .list-services svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Tablets (600px a 768px) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-left: 0;
+        text-align: left;
+        flex: 50%;
+    }
+
+    .menu {
+        text-align: right;
+        flex: 50%;
+        padding: 10px;
+    }
+
+    .menu a {
+        font-size: 20px;
+        padding: 8px 20px;
+    }
+
+    .slider {
+        width: 90%;
+    }
+
+    section {
+        margin-left: 3%;
+        margin-right: 3%;
+        padding: 3%;
+    }
+
+    .titulo-aluno {
+        font-size: 40px;
+    }
+
+    .aluno {
+        font-size: 22px;
+    }
+
+    section h2 {
+        font-size: 40px;
+    }
+
+    .card {
+        width: 45%;
+        margin: 2% auto;
+        font-size: 16px;
+    }
+
+    footer {
+        margin-top: 100px;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .list-services {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .list-services a,
+    .list-services svg {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Desktops pequenos (768px a 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        flex-direction: row;
+        height: auto;
+        padding: 15px;
+    }
+
+    .logo {
+        margin-left: 5%;
+        text-align: left;
+        flex: 30%;
+    }
+
+    .menu {
+        text-align: right;
+        flex: 70%;
+        padding: 15px;
+    }
+
+    .menu a {
+        font-size: 22px;
+        padding: 10px 25px;
+    }
+
+    .slider {
+        width: 85%;
+    }
+
+    section {
+        margin-left: 4%;
+        margin-right: 4%;
+        padding: 4%;
+    }
+
+    .titulo-aluno {
+        font-size: 44px;
+    }
+
+    .aluno {
+        font-size: 24px;
+    }
+
+    section h2 {
+        font-size: 44px;
+    }
+
+    .card {
+        width: 45%;
+        margin: 2% auto;
+        font-size: 18px;
+    }
+
+    footer {
+        margin-top: 150px;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .list-services {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .list-services a,
+    .list-services svg {
+        width: 55px;
+        height: 55px;
+    }
+}
